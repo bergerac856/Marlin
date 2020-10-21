@@ -59,7 +59,9 @@
 // M3/M4/M5 - Spindle/Laser Control
 //
 #define SPINDLE_LASER_ENA_PIN                 40  // Pullup or pulldown!
-#define SPINDLE_LASER_PWM_PIN                 44  // Hardware PWM
+//#define SPINDLE_LASER_PWM_PIN                 44  // Hardware PWM
+#define SERVO0_PIN                            44  // Pour BLTOUCH
+
 #define SPINDLE_DIR_PIN                       42
 
 //
@@ -76,7 +78,10 @@
 // Z Probe (when not Z_MIN_PIN)
 //
 #undef Z_MIN_PROBE_PIN
+#undef Z_MIN_PIN                                  // pour blt BQ OdB
+
 #define Z_MIN_PROBE_PIN                       19  // IND_S_5V
+#define Z_MIN_PIN                             19  // pour blt BQ OdB
 
 #undef Z_ENABLE_PIN
 #define Z_ENABLE_PIN                          77  // 62

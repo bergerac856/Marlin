@@ -20,7 +20,7 @@
  *
  * VERSION HEPHESTOS 2 BLTouch
  * 
- * Version O.de Broqueville BF227
+ * Version O.de Broqueville 
  * 
  */
 #pragma once
@@ -143,7 +143,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "OdB BQ BF229         "
+#define CUSTOM_MACHINE_NAME "OdB BQ BF230 BLT        "
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
